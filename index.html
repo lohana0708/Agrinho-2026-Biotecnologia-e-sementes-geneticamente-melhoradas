@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biotecnologia e Sementes Geneticamente Melhoradas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header class="hero">
+
+<nav>
+<div class="logo">BIOGEN</div>
+
+<ul>
+<li><a href="#historia">História</a></li>
+<li><a href="#tipos">Tecnologias</a></li>
+<li><a href="#beneficios">Benefícios</a></li>
+<li><a href="#desafios">Desafios</a></li>
+<li><a href="#futuro">Futuro</a></li>
+</ul>
+
+<button id="darkMode">🌙</button>
+
+</nav>
+
+<div class="hero-content">
+<h1>Biotecnologia e Sementes Geneticamente Melhoradas</h1>
+
+<p>
+A ciência que está transformando a agricultura mundial,
+aumentando a produtividade e ajudando a enfrentar os desafios
+da segurança alimentar e das mudanças climáticas.
+</p>
+
+<a href="#introducao" class="btn">Explorar</a>
+</div>
+
+</header>
+
+<section id="introducao">
+
+<h2>Introdução</h2>
+
+<p>
+A biotecnologia agrícola reúne técnicas avançadas de genética,
+biologia molecular e engenharia genética para desenvolver
+culturas mais produtivas, resistentes e sustentáveis.
+</p>
+
+<p>
+Com a população mundial ultrapassando 8 bilhões de habitantes,
+a produção de alimentos tornou-se um dos maiores desafios da humanidade.
+Nesse contexto, as sementes geneticamente melhoradas desempenham papel
+fundamental para aumentar a eficiência agrícola.
+</p>
+
+</section>
+
+<section id="historia">
+
+<h2>História da Biotecnologia</h2>
+
+<div class="timeline">
+
+<div class="event">
+<h3>10.000 a.C.</h3>
+<p>Primeira seleção artificial realizada por agricultores.</p>
+</div>
+
+<div class="event">
+<h3>1865</h3>
+<p>Gregor Mendel estabelece as bases da genética moderna.</p>
+</div>
+
+<div class="event">
+<h3>1973</h3>
+<p>Primeiros experimentos de engenharia genética.</p>
+</div>
+
+<div class="event">
+<h3>1994</h3>
+<p>Primeiro alimento transgênico comercializado.</p>
+</div>
+
+<div class="event">
+<h3>2012</h3>
+<p>Popularização da tecnologia CRISPR.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="tipos">
+
+<h2>Tecnologias de Melhoramento</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Melhoramento Convencional</h3>
+<p>
+Baseado em cruzamentos entre plantas para combinar características desejáveis.
+</p>
+</div>
+
+<div class="card">
+<h3>Marcadores Moleculares</h3>
+<p>
+Uso do DNA para identificar rapidamente plantas superiores.
+</p>
+</div>
+
+<div class="card">
+<h3>Transgenia</h3>
+<p>
+Inserção de genes específicos para resistência a pragas e doenças.
+</p>
+</div>
+
+<div class="card">
+<h3>CRISPR</h3>
+<p>
+Ferramenta capaz de editar genes com extrema precisão.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="comparacao">
+
+<h2>Comparação das Tecnologias</h2>
+
+<table>
+
+<tr>
+<th>Técnica</th>
+<th>Precisão</th>
+<th>Velocidade</th>
+<th>Custo</th>
+</tr>
+
+<tr>
+<td>Convencional</td>
+<td>Baixa</td>
+<td>Lenta</td>
+<td>Baixo</td>
+</tr>
+
+<tr>
+<td>Marcadores</td>
+<td>Média</td>
+<td>Média</td>
+<td>Médio</td>
+</tr>
+
+<tr>
+<td>Transgenia</td>
+<td>Alta</td>
+<td>Alta</td>
+<td>Alto</td>
+</tr>
+
+<tr>
+<td>CRISPR</td>
+<td>Muito Alta</td>
+<td>Muito Alta</td>
+<td>Médio</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="beneficios">
+
+<h2>Benefícios</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🌾 Produtividade</h3>
+<p>Mais alimentos produzidos por hectare.</p>
+</div>
+
+<div class="card">
+<h3>🐛 Resistência</h3>
+<p>Menor perda causada por insetos e doenças.</p>
+</div>
+
+<div class="card">
+<h3>☀️ Clima</h3>
+<p>Maior tolerância à seca e temperaturas extremas.</p>
+</div>
+
+<div class="card">
+<h3>🥗 Nutrição</h3>
+<p>Possibilidade de alimentos biofortificados.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Impacto da Biotecnologia</h2>
+
+<canvas id="grafico"></canvas>
+
+</section>
+
+<section id="desafios">
+
+<h2>Desafios e Debates</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Biodiversidade</h3>
+<p>Necessidade de preservar a diversidade genética.</p>
+</div>
+
+<div class="card">
+<h3>Patentes</h3>
+<p>Discussões sobre propriedade intelectual.</p>
+</div>
+
+<div class="card">
+<h3>Biossegurança</h3>
+<p>Avaliação rigorosa antes da liberação comercial.</p>
+</div>
+
+<div class="card">
+<h3>Acesso Tecnológico</h3>
+<p>Inclusão de pequenos produtores rurais.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="futuro">
+
+<h2>O Futuro da Agricultura</h2>
+
+<p>
+A próxima geração de sementes deverá combinar inteligência artificial,
+edição gênica, agricultura de precisão e análise genômica para produzir
+alimentos com maior sustentabilidade e menor impacto ambiental.
+</p>
+
+</section>
+
+<section class="quiz">
+
+<h2>Quiz</h2>
+
+<p>Qual tecnologia permite editar genes com alta precisão?</p>
+
+<button onclick="resposta('errado')">Transgenia</button>
+<button onclick="resposta('certo')">CRISPR</button>
+<button onclick="resposta('errado')">Hibridação</button>
+
+<p id="resultado"></p>
+
+</section>
+
+<section>
+
+<h2>Perguntas Frequentes</h2>
+
+<div class="faq">
+
+<button class="faq-btn">
+O que é um transgênico?
+</button>
+
+<div class="faq-content">
+Planta que recebeu genes específicos por engenharia genética.
+</div>
+
+<button class="faq-btn">
+O que é CRISPR?
+</button>
+
+<div class="faq-content">
+Ferramenta de edição genética altamente precisa.
+</div>
+
+<button class="faq-btn">
+Os transgênicos são seguros?
+</button>
+
+<div class="faq-content">
+Passam por avaliações rigorosas antes da liberação comercial.
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>Portal Educacional de Biotecnologia • 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
